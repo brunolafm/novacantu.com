@@ -1,0 +1,205 @@
+* {
+	font-family:Arial, Tahoma, sans-serif;
+	font-size:12px;
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-image: url("/img/login/background.png");
+	background-repeat: repeat;
+}
+
+.no-select {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.conteudo {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#cabecalho {
+	width:100%;
+	height:80px;
+}
+
+#titulo {
+	display:block;
+	padding-top: 8px;
+	font-size:2.3em;
+	color:#dddddd;
+	text-align:center;
+	text-shadow: black 2px 2px 7px;
+}
+
+#subtitulo {
+	display:block;
+	padding-top:10px;
+	font-size:1.3em;
+	color:#2E8B57;
+	text-align:center;
+}
+
+#login-box {
+	position: absolute;
+	top: 0; 
+	bottom: 0;
+	left: 0; 
+	right: 0;
+	margin: auto;
+	background-color:#3C3A3F;
+	width:380px;
+	height:260px;
+	border-radius:5px;
+	box-shadow:0px 0px 10px #3C3A3F;
+}
+
+#login-box-interno {
+	width:360px;
+	height:240px;
+	background-color:#fdfdfd;
+	position:absolute;
+	margin:10px;
+	border-radius:5px;
+	box-shadow:0px 0px 10px;
+	overflow:hidden;
+}
+
+#login-box-label {
+	height:45px;
+	text-align:center;
+	font:bold 16px/45px sans-serif;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	background: #fafbfc;
+	background: -webkit-linear-gradient(#fafbfc 0%, #ecf1f4 100%);
+	background: -o-linear-gradient(#fafbfc 0%, #ecf1f4 100%);
+	background: linear-gradient(#fafbfc 0%, #ecf1f4 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafbfc', endColorstr='#ecf1f4',GradientType=0 );
+	border-bottom:1px solid #bfc3c5;
+	box-shadow:1px 0px 3px #dedede;
+	color:#555555;
+	text-shadow: 1px 0px 1px white;
+}
+
+.input-div {
+	margin:20px;
+	padding:5px;
+	background-color:#f2f5f7;
+	border-radius:3px;
+	box-shadow:0px 0px 5px #f2f5f7;
+}
+
+.input-div input {
+	width: 310px;
+	height:35px;
+	padding-left:5px;
+	font:normal 13px;
+	color:#aeaeae;
+	border-radius:3px;
+	border:1px solid #bfc4c6;
+	outline:none;
+	box-sizing: border-box;
+}
+
+.input-div:hover {
+	background-color:#e0f1fc;
+}
+
+.input-div:hover input {
+	border-color:#7dc6dd;
+}
+
+#input-senha {
+	margin-top:-10px;
+}
+
+#botoes {
+	width:310px;
+	margin-left:25px;
+}
+
+#botao-logar input {
+	float:right;
+	padding:5px 15px;
+	font: 12px;
+	font-weight: bold;
+	border-radius:20px;
+	text-shadow: 0px 1px 0px white;
+	border:1px solid #9eb9c3;
+	outline: 0 none;
+	background: #f2f2f2;
+	background: -moz-linear-gradient(top,  #f2f2f2 0%, #d6d6d6 100%);
+	background: -webkit-linear-gradient(top,  #f2f2f2 0%,#d6d6d6 100%);
+	background: linear-gradient(to bottom,  #f2f2f2 0%,#d6d6d6 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#d6d6d6',GradientType=0 );
+}
+
+#botao-logar:hover input {
+	background: #d6d6d6;
+	background: -moz-linear-gradient(top,  #d6d6d6 0%, #f2f2f2 100%);
+	background: -webkit-linear-gradient(top,  #d6d6d6 0%,#f2f2f2 100%);
+	background: linear-gradient(to bottom,  #d6d6d6 0%,#f2f2f2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#f2f2f2',GradientType=0 );
+}
+
+#botao-deslogar input {
+	float:center;
+	padding:5px 15px;
+	font: 12px;
+	font-weight: bold;
+	border-radius:20px;
+	text-shadow: 0px 1px 0px white;
+	border:1px solid #9eb9c3;
+	outline: 0 none;
+	background: #f2f2f2;
+	background: -moz-linear-gradient(top,  #f2f2f2 0%, #d6d6d6 100%);
+	background: -webkit-linear-gradient(top,  #f2f2f2 0%,#d6d6d6 100%);
+	background: linear-gradient(to bottom,  #f2f2f2 0%,#d6d6d6 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#d6d6d6',GradientType=0 );
+}
+
+ #botao-deslogar:hover input {
+	background: #d6d6d6;
+	background: -moz-linear-gradient(top,  #d6d6d6 0%, #f2f2f2 100%);
+	background: -webkit-linear-gradient(top,  #d6d6d6 0%,#f2f2f2 100%);
+	background: linear-gradient(to bottom,  #d6d6d6 0%,#f2f2f2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#f2f2f2',GradientType=0 );
+}
+
+#lembrar-senha {
+	font:normal 12px;
+	float: left;
+}
+
+#lembrar-senha input {
+	vertical-align: middle;
+}
+
+#rodape {
+	position:fixed;
+	bottom:0;
+	width:100%;
+	padding:10px 0;
+	text-align:center;
+	background:#e3e3e3;
+	border-top:1px solid #ccc;
+}
+
+#txt-logado {
+	text-align: center;
+	color:white;
+	text-shadow: black 2px 2px 4px;
+	font:sans-serif;
+	font-size: 1.5em;
+	padding-top: 140px;
+	margin-bottom: 50px;
+}

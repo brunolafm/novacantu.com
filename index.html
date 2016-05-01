@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/x-png" href="/img/favicon.png">
+	<link type="text/css" rel="stylesheet" href="/css/home/main.css">
+	<!--[if lt IE 9]>
+		<link type="text/css" rel="stylesheet" href="/css/home/ie.css">
+	<![endif]-->
+	<title>Prefeitura Municipal de Nova Cantu</title>
+</head>
+<body>
+	<div id="adm">
+		<a href="http://novacantu.com/login/">LOGIN</a>
+	</div><!-- #adm -->
+	<div id="wrap">
+	<div id="principal">
+		<div id="cabecalho">
+			<h1 id="titulo">PREFEITURA MUNICIPAL DE NOVA CANTU</h1>
+			<h2 id="subtitulo"></h2>
+		</div><!-- #cabecalho -->
+		<div id="conteudo">
+		<div id="corpo">
+			<div id="google">
+				<div id="glogo"></div><!-- google-logo -->
+				<div id="gbusca">
+					<form id="gfrm" name="gfrm" action="http://www.google.com.br/search">
+						<input id="q" name="q" class="gtexto" placeholder="Digite o que você procura e pressione a tecla enter..." type="text">
+					</form>
+				</div><!-- google-input -->
+			</div><!-- #google -->			
+			<div id="icones">
+				<ul>
+					<li><a class="gmail" href="http://mail.google.com/"></a></li>
+					<li><a class="drive" href="http://drive.google.com/"></a></li>
+					<li><a class="zimbra" href="http://webmail.novacantu.pr.gov.br/"></a></li>
+					<li><a class="prefeitura" href="http://www.novacantu.pr.gov.br/"></a></li>
+					<li><a class="info" href="http://novacantu.com/info"></a></li>
+				</ul>
+			</div><!-- #icones -->
+		</div><!-- #corpo -->
+		</div><!-- #conteudo -->	
+	</div><!-- #principal -->
+	</div><!-- #wrap -->
+		<div id="rodape">
+			Prefeitura Municipal de Nova Cantu -  2016 © Todos os direitos reservados
+		</div><!-- #rodape -->
+	<script type="text/javascript">
+		var q = document.getElementById("q");
+		var f = document.getElementById("gfrm");
+		f.onsubmit = function(){ if(q.value == ""){ return false; } }
+		q.focus();
+	</script><!-- Posiciona o cursor na caixa de pesquisa -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-72503513-1', 'auto');
+		ga('send', 'pageview');
+	</script><!-- Google Analytics -->
+</body>
+</html>
