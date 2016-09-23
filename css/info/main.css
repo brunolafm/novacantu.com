@@ -130,7 +130,7 @@ button::-moz-focus-inner {
 	margin:0px;padding:0px;
 	width:43%;
 	position: absolute	;
-	top:950px;
+	top:970px;
 	left:28%;
 	box-shadow: 10px 10px 5px #c5c5c5;
 	border:1px solid #000000;
@@ -243,7 +243,7 @@ button::-moz-focus-inner {
 	margin:0px;padding:0px;
 	width:43%;
 	position: absolute	;
-	top:1285px;
+	top:1305px;
 	left:28%;
 	box-shadow: 10px 10px 5px #c5c5c5;
 	border:1px solid #000000;
@@ -404,7 +404,7 @@ button::-moz-focus-inner {
 
 #titulo2 {
 	display:block;
-	padding-top:772px;
+	padding-top:792px;
 	font-size:2em;
 	color:#00688b;
 	text-align:center;

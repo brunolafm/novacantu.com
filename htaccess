@@ -1,0 +1,27 @@
+﻿#Remove a Indexação de pastas
+	Options All -Indexes
+
+#Redireciona o erro 400 para a página personalizada
+	ErrorDocument 400 http://novacantu.com/error/400
+
+#Redireciona o erro 401 para a página personalizada
+	ErrorDocument 401 http://novacantu.com/error/401
+
+#Redireciona o erro 403 para a página personalizada
+	ErrorDocument 403 http://novacantu.com/error/403
+
+#Redireciona o erro 404 para a página personalizada
+	ErrorDocument 404 http://novacantu.com/error/404
+
+#Redireciona o erro 500 para a página personalizada
+	ErrorDocument 500 http://novacantu.com/error/500
+
+
+
+
+
+
+
+
+
+

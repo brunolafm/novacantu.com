@@ -68,8 +68,6 @@
 					<iframe src="http://177.220.136.106:9214/throughput.cgi"></iframe>
 					<div id="subtitulo"><a href="http://177.220.136.106:9215">Bruno</a></div>
 					<iframe src="http://177.220.136.106:9215/throughput.cgi"></iframe>
-					<div id="subtitulo"><a href="http://177.220.136.106:9216">Thaís</a></div>
-					<iframe src="http://177.220.136.106:9216/throughput.cgi"></iframe>
 					<div id="subtitulo"><a href="http://177.220.136.106:9217">Luiz</a></div>
 					<iframe src="http://177.220.136.106:9217/throughput.cgi"></iframe>
 					<div id="subtitulo"><a href="http://177.220.136.106:9223">Cida</a></div>
