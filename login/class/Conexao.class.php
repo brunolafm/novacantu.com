@@ -36,8 +36,8 @@
 		//m?odo que conecta com o banco de dados
 		public function conectar() {
 			try{
-				$this->pdo = new PDO("mysql:host=localhost;dbname=login-nc",
-								"root",
+				$this->pdo = new PDO("mysql:host=mysql.hostinger.com.br;dbname=u956828689_db",
+								"u956828689_adm",
 								"NCti@256",
 								array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
 			}catch (PDOException $e) {

@@ -63,7 +63,7 @@
 					<h1 id=espacador> </h1>
 					<h1 id=espacador> </h1>
 					<h1 id=opcoes>
-						<a href="http://novacantu.com:10000" target="_blank">Webmin</a>
+						<a href="http://177.220.136.106:9400" target="_blank">GestorLog</a>
 					</h1>
 					<h1 id=espacador> </h1>
 					<h1 id=espacador> </h1>

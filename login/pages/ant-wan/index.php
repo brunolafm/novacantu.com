@@ -61,7 +61,9 @@
 					<div id="subtitulo"><a href="http://177.220.136.106:9211">Creche Lindolfo</a></div>
 					<iframe src="http://177.220.136.106:9211/throughput.cgi"></iframe>
 					<div id="subtitulo"><a href="http://177.220.136.106:9212">Creche N.S. Fátima</a></div>
-					<iframe src="http://177.220.136.106:9212/throughput.cgi"></iframe>
+					<iframe src="http://177.220.136.106:9211/throughput.cgi"></iframe>
+					<div id="subtitulo"><a href="http://177.220.136.106:9222">CES</a></div>					
+					<iframe src="http://177.220.136.106:9222/throughput.cgi"></iframe>
 					<div id="subtitulo"><a href="http://177.220.136.106:9213">Anderson</a></div>
 					<iframe src="http://177.220.136.106:9213/throughput.cgi"></iframe>
 					<div id="subtitulo"><a href="http://177.220.136.106:9214">Suporte</a></div>

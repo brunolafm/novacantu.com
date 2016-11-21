@@ -62,6 +62,8 @@
 					<iframe src="http://10.140.10.60:9133/throughput.cgi"></iframe>
 					<div id="subtitulo"><a href="http://10.140.10.65:9133">Creche N.S. Fátima</a></div>
 					<iframe src="http://10.140.10.65:9133/throughput.cgi"></iframe>
+					<div id="subtitulo"><a href="http://10.140.10.70:9133">CES</a></div>
+					<iframe src="http://10.140.10.70:9133/throughput.cgi"></iframe>
 					<div id="subtitulo"><a href="http://10.140.10.210:9133">Anderson</a></div>
 					<iframe src="http://10.140.10.210:9133/throughput.cgi"></iframe>
 					<div id="subtitulo"><a href="http://10.140.10.215:9133">Bruno</a></div>
