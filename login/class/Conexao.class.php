@@ -36,9 +36,9 @@
 		//m?odo que conecta com o banco de dados
 		public function conectar() {
 			try{
-				$this->pdo = new PDO("mysql:host=mysql.hostinger.com.br;dbname=u956828689_db",
-								"u956828689_adm",
-								"NCti@256",
+				$this->pdo = new PDO("mysql:host=mysql427.umbler.com;dbname=novacantu",
+								"pmncantu",
+								"Info1024",
 								array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
 			}catch (PDOException $e) {
 				print "Error!: " . $e->getMessage() ."<br/>";
