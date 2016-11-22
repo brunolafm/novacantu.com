@@ -1,20 +1,24 @@
+#Redireciona para https
+	RewriteEngine On
+	RewriteCond %{HTTPS} off
+	RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+
+#Redireciona a página com www para sem www
+	RewriteEngine On
+	RewriteCond %{HTTP_HOST} ^www.(.*) [NC]
+	RewriteRule ^(.*) https://%1/$1 [R=301,L]
+
 # Erro 404
-ErrorDocument 400 http://novacantu.com/error/400/
+    ErrorDocument 400 https://novacantu.com/error/400/
 
 # Erro 401
-ErrorDocument 401 http://novacantu.com/error/401/
+    ErrorDocument 401 https://novacantu.com/error/401/
 
 # Erro 403
-ErrorDocument 403 http://novacantu.com/error/403/
+    ErrorDocument 403 https://novacantu.com/error/403/
 
 # Erro 404
-ErrorDocument 404 http://novacantu.com/error/404/
+    ErrorDocument 404 https://novacantu.com/error/404/
 
 # Erro 500
-ErrorDocument 500 http://novacantu.com/error/500/
-
-# Autenticação da pasta "download"
-# AuthType Basic
-# AuthName "Restricted Access"
-# AuthUserFile /home/u956828689/public_html/.htpasswd
-# Require user suporte
+    ErrorDocument 500 https://novacantu.com/error/500/
