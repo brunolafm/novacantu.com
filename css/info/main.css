@@ -412,6 +412,7 @@ button::-moz-focus-inner {
 
 #titulo3 {
 	display:block;
+	position: absolute;
 	padding-top: 1870px;
 	font-size:2em;
 	color:#00688b;
